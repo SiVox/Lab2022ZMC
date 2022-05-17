@@ -17,8 +17,15 @@ public class Lock : MonoBehaviour
     void Start()
     {
         key = GetComponent<Animator>();
-    }  
-   
+    }
+
+    private void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.E) && iCanOpen && !locked)
+        {
+            key.SetBool("useKey", CheckTheKey());
+        }
+    }
 
     private void OnTriggerEnter(Collider other)
     {
