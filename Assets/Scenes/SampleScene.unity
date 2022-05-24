@@ -275,7 +275,7 @@ GameObject:
   - component: {fileID: 1729768043}
   - component: {fileID: 1729768042}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Labirynth
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -293,11 +293,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebb9064f113cedf4e9e9bfe1481c177d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  map: {fileID: 0}
+  map: {fileID: 2800000, guid: aa0366f2c85e7864899493d06999a94d, type: 3}
   colorMappings:
-  - color: {r: 0, g: 0, b: 0, a: 0}
-    prefab: {fileID: 0}
+  - color: {r: 1, g: 0, b: 0, a: 1}
+    prefab: {fileID: 4991548177473719742, guid: 85897e9c29d9b284582305a560a36c66, type: 3}
+  - color: {r: 0, g: 1, b: 0, a: 1}
+    prefab: {fileID: 3067934928924676721, guid: a5d6841ca5245f44b9586a5e67c6a1b2, type: 3}
+  - color: {r: 1, g: 1, b: 1, a: 1}
+    prefab: {fileID: 79198231839138376, guid: b385225710b54b54dacb507ef5e7af1b, type: 3}
+  - color: {r: 0, g: 0, b: 0, a: 1}
+    prefab: {fileID: 4188845409644924357, guid: 1dd0fd04b7ced0a4399d6295f846472a, type: 3}
   offset: 5
+  material01: {fileID: 0}
+  material02: {fileID: 0}
 --- !u!4 &1729768043
 Transform:
   m_ObjectHideFlags: 0
